@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+    color:black; 
+}
+
+h1,h2{
+    font-family:Roboto,sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-family: sans-serif,arial;
+}
+
+img{
+    width:100%;
+    height: auto;
+}
+
+.texto{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+/*Geral Acima-----------------*/
+
+#topo{
+    background-color: #A4A4A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+}
+
+#topo img{
+    width: 8vw;
+}
+
+#topo h1{
+    font-size: 3vw;
+}
+
+#grade{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2vw 5vw;
+    padding:2vw;
+    align-items: center;
+    justify-items: center;;
+}
+
+#grade div{
+    
+}
+
+
+
