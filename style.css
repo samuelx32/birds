@@ -55,33 +55,51 @@ img{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:2vw 5vw;
-    padding:2vw;
+    padding:3vw;
     align-items: center;
     justify-items: center; 
 }
 
 #grade img{
-    width: 28vw;
+    width: 26vw;
     height: 17.5vw;
     border-radius: 5%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    opacity:0.9;
 }
 
 #grade img:hover{
-    opacity:0.5;
+    opacity:1;
 }
 
 #grade p{
-    position:relative;
-    top:-10vw;
     text-align: center;
+    margin-top:0.7vw;
 }
 
-#grade div:hover{
-    font-weight: bold;
-    
-}
 
+
+@media screen and (max-width:800px){
+    #grade{
+        grid-template-columns: 1fr;
+        padding:10vw;
+    }
+
+    #grade img{
+        width: 100%;
+        height: auto;
+    }
+
+    #grade p{
+        margin-top:2vw;
+        margin-bottom: 4vw;
+    }
+
+    #topo img{
+        width: 10vw;
+    }
+
+} 
 
 
 
